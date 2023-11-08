@@ -88,6 +88,8 @@ h1 {
 
 .taskItem a svg {
   pointer-events: none;
+  width: 25px;
+  height: 25px;
 }
 
 .completedTasks .taskItem {
