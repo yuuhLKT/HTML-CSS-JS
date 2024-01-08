@@ -37,9 +37,7 @@ function calcularMedia(){
     somaNotas += parseFloat(corpoTable.rows[i].cells[1].innerText);
   }
   
-  const mediaCalculo = parseFloat(somaNotas / corpoTable.rows.length).toFixed(2);
-  
-  return mediaCalculo;
+  return parseFloat(somaNotas / corpoTable.rows.length).toFixed(2);
 }
 
 function adicionarMediaTable() {
